@@ -1,0 +1,80 @@
+body {
+    background-color: hsl(30, 38%, 92%);
+}
+
+h1,
+h2 {
+    font-family: fraunces, sans-serif;
+    font-size: 30px;
+}
+
+p {
+    font-size: 14px;
+    font-family: montserrat, sans-serif;
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+    padding: 3%;
+}
+
+h2 {
+    float: left;
+    color: hsl(158, 36%, 37%)
+}
+
+.card-div {
+    width: 600px;
+    display: block;
+    margin: auto;
+    margin-top: 8%;
+    background-color: white;
+    border-radius: 3%;
+}
+
+.img-div {
+    padding: 0 0;
+    background-image: url('images/image-product-desktop.jpg');
+    background-size: cover;
+    border-radius: 3%;
+}
+
+.info-div {
+    padding: 3% 6%;
+}
+
+.add-to-cart-btn {
+    background-color: hsl(158, 36%, 37%);
+    color: hsl(0, 0%, 100%);
+    font-family: montserrat, sans-serif;
+    font-size: 14px;
+    width: 100%;
+    padding: 5%;
+}
+
+.orig-price {
+    padding: 3%;
+    text-align: center;
+}
+
+.attribution {
+    font-size: 12px;
+    text-align: center;
+    padding: 3%;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+
+@media screen and (max-width: 400px) {
+
+    .card-div {
+        width: 350px;
+    }
+
+    .img-div {
+        height: 300px;
+        background-image: url('images/image-product-mobile.jpg');
+    }
+
+}
