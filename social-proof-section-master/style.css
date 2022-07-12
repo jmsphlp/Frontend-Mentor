@@ -1,0 +1,173 @@
+body {
+    background-image: url("images/bg-pattern-top-desktop.svg"), url("images/bg-pattern-bottom-desktop.svg");
+    background-position: top left, bottom right;
+    background-size: 40%, 75%;
+    background-repeat: no-repeat;
+    font-family: League Spartan, "sans-serif";
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: hsl(300, 43%, 22%);
+}
+
+p {
+    font-size: 15px;
+}
+
+.main-div {
+    padding: 10% 15% 5%;
+}
+
+.title-div {
+    padding-right: 12%;
+}
+
+.title-div p {
+    color: hsl(303, 10%, 53%)
+}
+
+.rate-div {
+    margin-top: 4%;
+    border-radius: 5px;
+    background-color: hsl(300, 24%, 96%);
+    width: 90%;
+
+}
+
+.rate-div2 {
+    margin-left: 10%;
+}
+
+.rate-div3 {
+    margin-left: 20%;
+}
+
+.rate-div h3 {
+    font-size: 1rem;
+    text-align: center;
+    padding: 4% 0;
+    color: hsl(300, 43%, 22%);
+}
+
+.reviewing-div {
+    padding-top: 7%;
+    color: white;
+}
+
+.rate-div p {
+    float: left;
+    margin: 3% 5%;
+}
+
+.review-div {
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 10px;
+    padding: 10% 8%;
+    height: 90%;
+}
+
+.review-div2 {
+    margin-top: 5%;
+}
+
+.review-div3 {
+    margin-top: 10%;
+}
+
+.reviewing-div h3,
+.reviewing-div h2 {
+    font-size: 1.2rem;
+    padding-right: 25%;
+    margin: 0;
+    text-align: center;
+}
+
+.reviewing-div h2 {
+    color: hsl(333, 80%, 67%);
+}
+
+.reviewing-div p {
+    margin-top: 10%;
+}
+
+.reviewing-div img {
+    float: left;
+    border-radius: 50%;
+    height: 40px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    padding-top: 3%;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+}
+
+
+@media screen and (max-width: 500px) {
+    body {
+        background-image: url("images/bg-pattern-top-mobile.svg"), url("images/bg-pattern-bottom-mobile.svg");
+        background-position: top left, bottom right;
+        background-size: 100%, 100%;
+        background-repeat: no-repeat;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .main-div {
+        padding: 10% 15%;
+    }
+
+    .title-div {
+        padding: 0;
+    }
+
+    .rate-div {
+        margin: 0;
+        width: 100%;
+        padding: 0 10%;
+    }
+
+    .rating-div {
+        text-align: center;
+    }
+
+    .rate-div h3 {
+        padding: 0;
+    }
+
+    .rate-div p {
+        float: none;
+        padding-top: 2%;
+    }
+
+    .reviewing-div h3,
+    .reviewing-div h2 {
+        font-size: 1.2rem;
+        padding-right: 15%;
+        margin: 0;
+        text-align: center;
+    }
+
+    .review-div {
+        padding: 5% 8%;
+        height: 90%;
+    }
+
+    .review-div2 {
+        margin: 0;
+    }
+
+    .review-div3 {
+        margin: 0;
+    }
+}
