@@ -1,0 +1,163 @@
+body {
+    background-color: hsl(204, 43%, 93%);
+    font-family: Karla, sans-serif;
+}
+
+.container-fluid {
+    padding: 10% 25% 5%;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 700;
+}
+
+h1 {
+    color: hsl(179, 62%, 43%);
+    font-size: 2rem;
+    padding-bottom: 3%;
+}
+
+.title-div h3 {
+    color: hsl(71, 73%, 54%);
+}
+
+.title-div p {
+    color: hsl(0, 0%, 75%);
+}
+
+h3 {
+    font-size: 1.1rem;
+}
+
+.price-div h3,
+.intention-div h3 {
+    color: white;
+}
+
+.price-div h2 {
+    color: white;
+    float: left;
+}
+
+.price-div .p1 {
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;
+    margin-top: 7%;
+}
+
+.price-div p,
+.intention-div p {
+    color: rgb(225, 225, 225);
+}
+
+.price-div .p2 {
+    color: white;
+}
+
+p {
+    font-size: 16px;
+}
+
+.title-div,
+.price-div,
+.intention-div {
+    padding: 5% 8%;
+}
+
+.title-div,
+.intention-div {
+    padding-right: 13%;
+}
+
+.title-div {
+    background-color: white;
+}
+
+.price-div {
+    background-color: hsl(179, 62%, 43%);
+}
+
+.intention-div {
+    background-color: hsl(179, 62%, 43%);
+    opacity: 80%;
+}
+
+
+.sign-up-btn {
+    background-color: hsl(71, 73%, 54%);
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    padding: 5%;
+    width: 100%;
+    margin-top: 10%;
+}
+
+.sign-up-btn:hover {
+    background-color: white;
+    color: hsl(71, 73%, 54%);
+}
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+    .container-fluid {
+        padding: 20% 10% 5%;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        font-size: 1rem;
+    }
+
+    p {
+        font-size: 13px;
+    }
+
+    .price-div h3,
+    .intention-div h3 {
+        font-size: 1.1rem;
+    }
+
+    .price-div h2 {
+        font-size: 2rem;
+    }
+
+    .price-div .p2 {
+        margin-top: 7%;
+        font-size: 16px;
+        color: white;
+    }
+
+    .price-div .p1 {
+        width: 25%;
+        text-align: center;
+        margin-left: 25%;
+        margin-top: 7%;
+    }
+
+    .sign-up-btn {
+        margin-top: 2%;
+    }
+
+    .intention-div {
+        padding-right: 40%;
+    }
+
+}
