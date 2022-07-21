@@ -1,0 +1,375 @@
+body {
+    font-size: 18px;
+    font-family: Open Sans, sans-serif;
+}
+
+.row {
+    --bs-gutter-x: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    color: hsl(243, 87%, 12%);
+}
+
+p {
+    color: hsl(243, 87%, 12%);
+}
+
+
+
+
+/* heading section */
+#heading {
+    padding: 5%;
+}
+
+#heading .logo {
+    float: left;
+}
+
+#heading p {
+    float: left;
+    margin-left: 5%;
+    position: relative;
+    left: 58%;
+}
+
+
+
+
+
+/* section 1 */
+
+#section1 {
+    padding: 0 5% 20%;
+    background-image: url("images/bg-curve-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+}
+
+#section1 .desktop-img,
+.mobile-img {
+    width: 100%;
+}
+
+#section1 .mobile-img {
+    height: 0;
+}
+
+#section1 .left-div {
+    padding: 7% 3% 0 0;
+}
+
+#section1 p {
+    margin: 3% 0 5%
+}
+
+#section1 .textbox {
+    float: left;
+    height: 12%;
+    margin-right: 3%;
+    width: 52%;
+    padding-left: 3%;
+    border: 1px solid hsl(0, 0%, 75%);
+}
+
+#section1 button {
+    background-color: hsl(224, 93%, 58%);
+    border: 0;
+    border-radius: 3px;
+    color: white;
+    font-size: 16px;
+    height: 12%;
+    width: 35%;
+    font-weight: 700;
+}
+
+#section1 button:hover {
+    opacity: 80%;
+}
+
+
+
+
+
+/* section 2 */
+
+#section2 {
+    padding: 0 5% 7%;
+    background-color: #F8F8FE;
+}
+
+#section2 .desktop-img,
+.mobile-img {
+    width: 100%;
+}
+
+#section2 .mobile-img {
+    height: 0;
+}
+
+#section2 h1 {
+    margin-bottom: 5%;
+}
+
+
+#section2 .desktop-img {
+    margin-top: 5%;
+}
+
+#section2 .top-left-div p {
+    padding-right: 20%;
+}
+
+.top-left-div a {
+    color: hsl(170, 45%, 43%);
+}
+
+.testimony {
+    background-color: #ffff;
+    font-size: 16px;
+    margin-top: 7%;
+    padding: 4%;
+    width: 53%;
+}
+
+.testimony h3 {
+    font-size: 1rem;
+    margin: 6% 0 0;
+}
+
+.testimony h4 {
+    font-size: .9rem;
+    font-weight: 400;
+}
+
+.testimony .quotes {
+    margin-bottom: 1%;
+    width: 7%;
+}
+
+.testimony .avatar {
+    float: left;
+    width: 12%;
+    border-radius: 50%;
+    margin-right: 5%;
+}
+
+
+
+/* section 3 */
+
+#section3 {
+    padding: 7% 5%;
+    background-color: hsl(238, 22%, 44%);
+}
+
+#section3 h2 {
+    color: #ffff;
+}
+
+#section3 p {
+    color: hsl(0, 0%, 90%);
+    padding-right: 25%;
+}
+
+#section3 .textbox {
+    height: 32%;
+    width: 100%;
+    margin-bottom: 2%;
+    padding-left: 3%;
+    border: 1px solid hsl(0, 0%, 75%);
+}
+
+#section3 button {
+    background-color: hsl(224, 93%, 58%);
+    border: 0;
+    border-radius: 3px;
+    color: white;
+    height: 32%;
+    width: 45%;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+#section3 button:hover {
+    opacity: 80%;
+}
+
+
+
+
+
+/* footer */
+
+#footer {
+    padding: 5% 5% 2%;
+    background-color: hsl(243, 87%, 12%);
+}
+
+#footer .logo {
+    margin-bottom: 2%;
+}
+
+
+#footer p {
+    color: #ffff;
+}
+
+#footer .footerlinks {
+    text-align: center;
+}
+
+#footer .social-media-icon-div {
+    text-align: center;
+}
+
+.social-media-icon {
+    margin: 3%;
+}
+
+.contact-icon {
+    margin-right: 5%;
+}
+
+.attribution {
+    text-align: center;
+    margin-top: 3%;
+}
+
+.attribution a {
+    text-decoration: none;
+}
+
+
+
+
+/* mobile design */
+
+@media screen and (max-width: 450px) {
+
+    #heading {
+        margin-bottom: 20%;
+    }
+
+    #heading .logo {
+        width: 30%;
+    }
+
+    #heading p {
+        margin-left: 5%;
+        left: 10%;
+    }
+
+    #section1 {
+        text-align: center;
+        padding-bottom: 40%;
+        background-image: url("images/bg-curve-mobile.svg");
+        background-size: 100%;
+        padding: 0 3% 45%;
+    }
+
+    #section1 .mobile-img {
+        height: 100%;
+    }
+
+    #section1 .left-div {
+        padding: 0;
+        margin-top: 20%;
+    }
+
+    #section1 p {
+        margin: 5% 0;
+    }
+
+    #section1 .desktop-img {
+        height: 0;
+    }
+
+    #section1 .textbox {
+        height: 15%;
+        margin: 5% 0;
+        width: 100%;
+    }
+
+    #section1 button {
+        height: 15%;
+        width: 100%;
+    }
+
+    #section2 {
+        text-align: center;
+        padding: 0 3% 10%;
+    }
+
+    #section2 h1 {
+        margin: 25% 0 10%;
+        font-size: 1.3rem;
+    }
+
+    #section2 .top-left-div p {
+        padding-right: 0;
+    }
+
+    #section2 .mobile-img {
+        height: 100%;
+    }
+
+    #section2 .desktop-img {
+        height: 0;
+    }
+
+    .testimony {
+        display: block;
+        margin: 10% auto;
+        padding: 5%;
+        text-align: justify;
+        width: 90%;
+    }
+
+    #section3 {
+        padding: 20% 3% 30%;
+        text-align: center;
+    }
+
+    #section3 p {
+        padding: 5%;
+    }
+
+    #section3 .textbox {
+        height: 70%;
+        width: 70%;
+    }
+
+    #section3 button {
+        height: 70%;
+        width: 70%;
+    }
+
+    #footer {
+        padding: 15% 5% 5%;
+    }
+
+    #footer .logo {
+        margin-bottom: 15%;
+    }
+
+    #footer .footerlinks {
+        text-align: left;
+        margin: 10% 0;
+    }
+
+    #footer .social-media-icon-div {
+        margin-bottom: 10%;
+    }
+
+    .footerlinks .col-lg-6 {
+        margin: 5% 0;
+    }
+}
